@@ -7,6 +7,14 @@ export default createGlobalStyle`
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Heebo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Barlow', sans-serif;
+}
+
 :root {
 	--blue: ${props => props.theme.colors.blue};
 	--orange: ${props => props.theme.colors.orange};
@@ -20,4 +28,4 @@ export default createGlobalStyle`
 	--lightBlue: ${props => props.theme.colors.lightBlue};
 	--background: ${props => props.theme.colors.background};
 }
-`
+`;

@@ -1,6 +1,5 @@
 export default {
   title: 'light',
-
   colors: {
     blue: '#115D8C',
     orange: '#F25D27',
@@ -12,6 +11,6 @@ export default {
     red: '#DE3838',
     green: '#51B853',
     lightBlue: '#DDE9F0',
-    background: '#F5F8FA'
-  }
-}
+    background: '#F5F8FA',
+  },
+};
