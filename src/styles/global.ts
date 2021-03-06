@@ -8,11 +8,21 @@ export default createGlobalStyle`
 }
 
 body {
+	color: var(--text);
+	background: var(--background);
 	font-family: 'Heebo', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Barlow', sans-serif;
+}
+
+body, input, textarea, button {
+  font-family: 400 1rem 'Heebo', sans-serif;
+}
+
+button {
+  cursor: pointer;
 }
 
 :root {
@@ -25,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 	--secundaryShape: ${props => props.theme.colors.secundaryShape};
 	--red: ${props => props.theme.colors.red};
 	--green: ${props => props.theme.colors.green};
-	--lightBlue: ${props => props.theme.colors.lightBlue};
+	--light-blue: ${props => props.theme.colors.lightBlue};
 	--background: ${props => props.theme.colors.background};
 }
 `;
