@@ -6,10 +6,9 @@ export const Container = styled.div`
   flex-direction: column;
 
   width: 19rem;
-  height: 20rem;
+  height: 19.75rem;
 
   border-radius: 20px;
-  border: 1.18px solid var(--secondaryShape);
 `;
 
 export const Image = styled.div`
@@ -24,9 +23,18 @@ export const Image = styled.div`
 `;
 
 export const CardInfo = styled.div`
+  height: 6.6rem;
+  width: 100%;
+
   display: flex;
   flex-direction: column;
-  margin: 1.25rem;
+
+  padding: 1.25rem;
+
+  background: var(--primaryShape);
+
+  border: 1.18px solid var(--secondaryShape);
+  border-radius: 0 0 20px 20px;
 
   > span {
     font-size: 1.425rem;
