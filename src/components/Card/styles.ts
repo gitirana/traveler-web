@@ -5,8 +5,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  width: 304px;
-  height: 316px;
+  width: 19rem;
+  height: 20rem;
 
   border-radius: 20px;
   border: 1.18px solid var(--secondaryShape);
@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const Image = styled.div`
   width: 100%;
-  height: 210px;
+  height: 13.125rem;
 
   background-image: url(${cardPic});
   background-size: cover;
@@ -26,16 +26,16 @@ export const Image = styled.div`
 export const CardInfo = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 1.25rem;
 
   > span {
-    font-size: 22.8px;
+    font-size: 1.425rem;
     font-weight: 500;
     color: var(--title);
   }
 
   > p {
-    font-size: 15.22px;
+    font-size: 0.95125rem;
     color: var(--text);
   }
 `;
