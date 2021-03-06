@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: 100vh;
-  max-width: 1120px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1.5rem 2rem 0 2rem;
 
@@ -40,8 +40,7 @@ export const Main = styled.main`
   flex: 1;
 
   margin-top: 1rem;
-
-  /* background-color: white; */
+  overflow: hidden;
 `;
 
 export const Present = styled.div`
@@ -89,8 +88,25 @@ export const Present = styled.div`
 
 export const Cities = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: nowrap;
   flex: 3;
 
-  background-color: red;
+  justify-content: flex-end;
+`;
+
+export const FirstList = styled.div`
+  margin-right: 2rem;
+
+  > div {
+    margin-bottom: 2rem;
+  }
+`;
+
+export const SecondList = styled.div`
+  margin-top: 4.75rem;
+
+  > div {
+    margin-bottom: 2rem;
+  }
 `;

@@ -7,6 +7,24 @@ export default createGlobalStyle`
 	box-sizing: border-box;
 }
 
+@media(max-width: 1080px) {
+	html {
+		font-size: 93.75%;
+	}
+}
+
+@media(max-width: 720px) {
+	html {
+		font-size: 87.50%;
+	}
+}
+
+@media(max-width: 540px) {
+	html {
+		font-size: 81.25%;
+	}
+}
+
 body {
 	color: var(--text);
 	background: var(--background);

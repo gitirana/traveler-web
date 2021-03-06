@@ -1,4 +1,6 @@
 import React from 'react';
+import Card from '../../components/Card/Card';
+
 import {
   Container,
   Header,
@@ -7,6 +9,8 @@ import {
   Main,
   Present,
   Cities,
+  FirstList,
+  SecondList,
 } from './styles';
 
 import logo from '../../assets/logo.svg';
@@ -28,7 +32,22 @@ export default function Home() {
           </p>
           <button type="button">Descobrir todos os lugares</button>
         </Present>
-        <Cities>asd</Cities>
+        <Cities>
+          <FirstList>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </FirstList>
+          <SecondList>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </SecondList>
+        </Cities>
       </Main>
     </Container>
   );
