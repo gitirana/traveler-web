@@ -7,8 +7,8 @@ import Home from './pages/Home/index';
 import GlobalStyle from './styles/global';
 import light from './styles/themes/light';
 
-function App() {
-  const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
+const App: React.FC = () => {
+  const [theme] = usePersistedState<DefaultTheme>('theme', light);
 
   return (
     <ThemeProvider theme={theme}>
@@ -16,6 +16,6 @@ function App() {
       <Home />
     </ThemeProvider>
   );
-}
+};
 
 export default App;

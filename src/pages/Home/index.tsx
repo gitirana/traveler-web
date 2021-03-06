@@ -15,7 +15,7 @@ import {
 
 import logo from '../../assets/logo.svg';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <Container>
       <Header>
@@ -51,4 +51,6 @@ export default function Home() {
       </Main>
     </Container>
   );
-}
+};
+
+export default Home;
