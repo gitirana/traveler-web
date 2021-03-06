@@ -15,6 +15,11 @@ import {
 
 import logo from '../../assets/logo.svg';
 
+import Florianopolis from '../../assets/img/florianopolis.jpg';
+import Bombinhas from '../../assets/img/bombinhas.png';
+import Blumenal from '../../assets/img/blumenal.png';
+import AguasMornas from '../../assets/img/aguas-mornas.png';
+
 const Home: React.FC = () => {
   return (
     <Container>
@@ -34,18 +39,18 @@ const Home: React.FC = () => {
         </Present>
         <Cities>
           <FirstList>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card name="Florianopolis" img={Florianopolis} numPlaces={98} />
+            <Card name="Bombinhas" img={Bombinhas} numPlaces={43} />
+            <Card name="Blumenal" img={Blumenal} numPlaces={29} />
+            <Card name="AguasMornas" img={AguasMornas} numPlaces={13} />
+            <Card name="Bombinhas" img={Bombinhas} numPlaces={43} />
           </FirstList>
           <SecondList>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card name="Blumenal" img={Blumenal} numPlaces={29} />
+            <Card name="AguasMornas" img={AguasMornas} numPlaces={13} />
+            <Card name="Bombinhas" img={Bombinhas} numPlaces={43} />
+            <Card name="Florianopolis" img={Florianopolis} numPlaces={98} />
+            <Card name="AguasMornas" img={AguasMornas} numPlaces={13} />
           </SecondList>
         </Cities>
       </Main>

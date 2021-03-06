@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import cardPic from '../../assets/img/floriapa.jpg';
+import cardPic from '../../assets/img/florianopolis.jpg';
 
 export const Container = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ export const Container = styled.div`
   border-radius: 20px;
 `;
 
-export const Image = styled.div`
+export const Image = styled.img`
   width: 100%;
   height: 13.125rem;
 
