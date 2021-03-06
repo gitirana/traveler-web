@@ -54,6 +54,8 @@ export const Present = styled.div`
   max-width: 20.5rem;
 
   > h1 {
+    line-height: 5rem;
+
     font-size: 5rem;
     font-weight: 600;
     font-family: Barlow;

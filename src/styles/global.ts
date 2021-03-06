@@ -32,7 +32,7 @@ button {
 	--text: ${props => props.theme.colors.text};
 	--subText: ${props => props.theme.colors.subText};
 	--primaryShape: ${props => props.theme.colors.primaryShape};
-	--secundaryShape: ${props => props.theme.colors.secundaryShape};
+	--secondaryShape: ${props => props.theme.colors.secundaryShape};
 	--red: ${props => props.theme.colors.red};
 	--green: ${props => props.theme.colors.green};
 	--light-blue: ${props => props.theme.colors.lightBlue};
