@@ -104,10 +104,10 @@ export const Present = styled.div`
     transition: background 0.2s;
 
     :hover {
-      color: var(--orange);
+      color: var(--blue);
       background: var(--background);
 
-      border: 1px solid var(--orange);
+      border: 2px solid var(--blue);
     }
   }
 `;
