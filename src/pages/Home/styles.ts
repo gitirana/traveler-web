@@ -83,6 +83,16 @@ export const Present = styled.div`
     color: var(--primaryShape);
 
     background: var(--orange);
+
+    transition: color 0.2s;
+    transition: background 0.2s;
+
+    :hover {
+      color: var(--orange);
+      background: var(--background);
+
+      border: 1px solid var(--orange);
+    }
   }
 `;
 

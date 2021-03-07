@@ -42,15 +42,15 @@ const Home: React.FC = () => {
             <Card name="Florianopolis" img={Florianopolis} numPlaces={98} />
             <Card name="Bombinhas" img={Bombinhas} numPlaces={43} />
             <Card name="Blumenal" img={Blumenal} numPlaces={29} />
-            <Card name="AguasMornas" img={AguasMornas} numPlaces={13} />
+            <Card name="Águas Mornas" img={AguasMornas} numPlaces={13} />
             <Card name="Bombinhas" img={Bombinhas} numPlaces={43} />
           </FirstList>
           <SecondList>
             <Card name="Blumenal" img={Blumenal} numPlaces={29} />
-            <Card name="AguasMornas" img={AguasMornas} numPlaces={13} />
+            <Card name="Águas Mornas" img={AguasMornas} numPlaces={13} />
             <Card name="Bombinhas" img={Bombinhas} numPlaces={43} />
             <Card name="Florianopolis" img={Florianopolis} numPlaces={98} />
-            <Card name="AguasMornas" img={AguasMornas} numPlaces={13} />
+            <Card name="Águas Mornas" img={AguasMornas} numPlaces={13} />
           </SecondList>
         </Cities>
       </Main>
