@@ -8,6 +8,10 @@ export const Container = styled.div`
 
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 540px) {
+    padding: 1.5rem 0 0 0;
+  }
 `;
 
 export const Header = styled.header`
@@ -15,6 +19,10 @@ export const Header = styled.header`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 540px) {
+    padding: 0 2rem 0 2rem;
+  }
 `;
 
 export const Image = styled.img`
@@ -23,13 +31,15 @@ export const Image = styled.img`
 
 export const Button = styled.button`
   height: 3rem;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 
   border-radius: 10px;
   border: none;
 
   color: var(--blue);
   font-weight: 500;
+
+  cursor: not-allowed;
 
   background: var(--light-blue);
 `;
@@ -41,6 +51,12 @@ export const Main = styled.main`
 
   margin-top: 1rem;
   overflow: hidden;
+
+  @media (max-width: 540px) {
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+  }
 `;
 
 export const Present = styled.div`
@@ -106,17 +122,30 @@ export const Cities = styled.div`
 `;
 
 export const FirstList = styled.div`
-  margin-right: 2rem;
-
   > div {
     margin-bottom: 2rem;
+  }
+
+  @media (max-width: 540px) {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+
+    > div {
+      margin: 1.5rem;
+    }
   }
 `;
 
 export const SecondList = styled.div`
   margin-top: 4.75rem;
+  margin-left: 2rem;
 
   > div {
     margin-bottom: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
   }
 `;
