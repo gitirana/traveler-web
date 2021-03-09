@@ -13,9 +13,8 @@ export const Container = styled.div`
   width: 100%;
   height: 6rem;
 
-  padding: 2.2rem 10rem;
-
   border-bottom: 1.18px solid var(--secondaryShape);
+  background: var(--primaryShape);
 `;
 
 export const Image = styled.img`
@@ -73,10 +72,12 @@ export const AccessButton = styled.div`
     width: 10.875rem;
     border-radius: 10px;
     border: none;
-    background: var(--lightBlue);
+    background: var(--light-blue);
 
     color: var(--blue);
     font-weight: 600;
     font-size: 1rem;
+
+    cursor: none;
   }
 `;
