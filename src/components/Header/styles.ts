@@ -10,6 +10,8 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  padding: 3rem 10rem;
+
   width: 100%;
   height: 6rem;
 
