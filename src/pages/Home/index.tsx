@@ -1,4 +1,6 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
+
 import Card from '../../components/Card';
 
 import {
@@ -20,7 +22,8 @@ import Bombinhas from '../../assets/img/bombinhas.png';
 import Blumenal from '../../assets/img/blumenal.png';
 import AguasMornas from '../../assets/img/aguas-mornas.png';
 
-const Home: React.FC = () => {
+const Home: React.FC = props => {
+  const history = useHistory();
   return (
     <Container>
       <Header>
@@ -35,7 +38,9 @@ const Home: React.FC = () => {
             Descubra locais incríveis para se visitar em cidades maravilhosas de
             Santa Catarina.
           </p>
-          <button type="button">Descobrir todos os lugares</button>
+          <button type="button" onClick={() => history.push('/cities')}>
+            Descobrir todos os lugares
+          </button>
         </Present>
         <Cities>
           <FirstList>
