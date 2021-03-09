@@ -15,11 +15,8 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-<<<<<<< HEAD
       <CitiesList />
-=======
       <Routes />
->>>>>>> 92dd17bdbf24883116fb738de8a930dc1895b2fe
     </ThemeProvider>
   );
 };
