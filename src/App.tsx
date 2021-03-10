@@ -7,7 +7,6 @@ import Routes from './routers/routes';
 
 import GlobalStyle from './styles/global';
 import light from './styles/themes/light';
-import CitiesList from './pages/CitiesList';
 
 const App: React.FC = () => {
   const [theme] = usePersistedState<DefaultTheme>('theme', light);
@@ -15,7 +14,6 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <CitiesList />
       <Routes />
     </ThemeProvider>
   );

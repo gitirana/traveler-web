@@ -20,12 +20,7 @@ const Routes: React.FC = () => {
     return (
       <Route
         path={route.path}
-        render={props => (
-          // pass the sub-routes down to keep nesting
-          /* eslint-disable */ 
-          <route.component {...props} routes={route.routes} />
-          /* eslint-disable */ 
-        )}
+        render={props => <route.component {...props} routes={route.routes} />}
       />
     );
   }
@@ -34,9 +29,7 @@ const Routes: React.FC = () => {
     <BrowserRouter>
       <Switch>
         {routes.map(route => (
-          /* eslint-disable */ 
           <RouteWithSubRoutes key={`${route.path}`} {...route} />
-          /* eslint-disable */ 
         ))}
       </Switch>
     </BrowserRouter>
