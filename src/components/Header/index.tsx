@@ -47,8 +47,3 @@ const Header: React.FC = () => {
 };
 
 export default Header;
-function useField(
-  name: void,
-): { fieldName: any; defaultValue: any; registerField: any } {
-  throw new Error('Function not implemented.');
-}
