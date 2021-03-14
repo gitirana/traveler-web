@@ -5,6 +5,7 @@ Project Description
 
 - [ ] Fix[Ítalo]: Fix landing page route  
 - [ ] Fix: Fix search field icons  
+- [ ] Style(search-page): Add orange border-bottom  
 - [ ] Create no results page  
 - [ ] Create city details page  
 - [ ] Create establishment details page  
@@ -16,8 +17,8 @@ Project Description
 
 ### In Progress
 
-- [ ] [Thayná]: Finish search page  
 
 ### Done ✓
 
+- [x] [Thayná]: Finish search page  
 
